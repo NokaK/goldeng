@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^goldengatesolutions\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.goldengatesolutions\.net$
+RewriteRule ^index\.html$ "http\:\/\/goldengatesolutions\.net\/index\.html" [R=302,L]
+

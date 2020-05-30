@@ -1,0 +1,136 @@
+@media only screen and (max-width: 1380px) {
+
+    .logo_navigation__container {
+        width: 68% !important;
+
+    }
+
+
+
+    .gray-text {
+        top: 33.6% !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+
+
+    /**
+ *
+ *     ? FORR HOME PAGE
+ *
+ *
+ */
+    .cards {
+        .text {
+            top: 74.6% !important;
+        }
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .formation_section .cards_formation {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .cards {
+        .text {
+            top: 78.4% !important;
+        }
+    }
+
+    .cards__text {
+        text-align: center !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 980px) {
+
+
+    .gray-text {
+        top: 65.6% !important;
+    }
+
+    .tax_cards {
+        grid-template-columns: initial !important;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .cards {
+        .text {
+            top: 71.5% !important;
+        }
+    }
+
+
+    .commertial_cards {
+        grid-template-columns: initial !important;
+        grid-template-rows: 1fr 1fr;
+
+        .col-md-offset-left,
+        .col-md-offset-right {
+            margin: 0 !important;
+        }
+
+        margin-top: 1rem;
+    }
+
+    .card_container {
+
+
+        grid-template-columns: initial !important;
+        grid-template-rows: repeat(4, .8fr);
+        grid-gap: 10px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 780px) {
+
+    .cards {
+        .text {
+            top: 84.2% !important;
+        }
+    }
+
+    .formation_section .cards_formation {
+
+        grid-template-columns: initial;
+        grid-template-rows: repeat(6, 1fr);
+
+    }
+
+    .section_property {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 560px) {
+
+    .cards {
+        .text {
+            top: 84.2% !important;
+        }
+    }
+
+
+    .gray-text {
+        top: 50.6% !important;
+    }
+}

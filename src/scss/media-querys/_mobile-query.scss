@@ -1,0 +1,110 @@
+@media only screen and (max-width: 768px) {
+
+    .hero {
+        .hero_headline__container {
+            margin-top: 5.5rem !important;
+        }
+    }
+
+
+    .row {
+        padding: 1rem !important;
+        grid-template-columns: initial !important;
+        grid-template-rows: 1fr .2fr !important;
+    }
+
+    .side-padding {
+        padding: initial !important;
+    }
+
+    .side-bar {
+        margin-top: initial;
+    }
+
+    .mobile-delete {
+        display: none;
+    }
+
+
+    .flex-for-form-group {
+        display: flex !important;
+
+        flex-direction: column;
+        align-items: center
+    }
+
+    .value {
+        margin-top: .5rem;
+    }
+
+    .mobile_setup {
+        display: block !important;
+    }
+
+    .navigation {
+        .logo_navigation__container {
+            width: 32% !important;
+        }
+    }
+
+    .side-bar {
+        margin-top: 2rem !important;
+    }
+
+    .payment-methods {
+        grid-template-columns: initial;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .card_number_container {
+        grid-template-columns: initial;
+        grid-template-rows: 1fr 1fr;
+
+        .card-number {
+            width: 100%;
+
+
+        }
+
+        .card-type-box {
+            margin-top: 1.7rem;
+        }
+
+    }
+
+    .expire_date {
+        grid-template-columns: initial;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .hero_headline__container {
+        padding: 1.5rem;
+        text-align: center;
+        margin-top: 2rem !important;
+    }
+
+
+    .profile_row {
+        grid-template-columns: initial;
+        grid-template-rows: 1fr;
+    }
+
+
+}
+
+@media only screen and (max-width: 560px) {
+    .width-for-labels {
+        width: 55%;
+    }
+
+    .navigation {
+        padding: 0 1vw;
+    }
+
+
+    .navigation {
+        .logo_navigation_container {
+            width: 25% !important;
+        }
+    }
+}

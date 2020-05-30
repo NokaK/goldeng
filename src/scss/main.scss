@@ -1,0 +1,40 @@
+/// === === ===  ABSTRACTS === === === ===
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+
+/// === === ===  BASE=== === === ===
+@import "base/base";
+
+/// === === ===  FONTS === === === ===
+@import "fonts/font-face";
+@import "fonts/font-size";
+@import "fonts/font-style";
+
+/// === === === PAGES === === === ===
+ 
+@import "pages/home";
+@import "pages/set-up";
+@import "pages/login";
+@import "pages/register";
+@import "pages/personal_details";
+@import "pages/payment-method";
+@import "pages/profile";
+
+
+/// === === ===  COMPONENTS === === === ===
+
+@import "components/buttons";
+@import "components/footer";
+@import "components/helper-classes";
+@import "components/navigation";
+@import "components/form_selects";
+@import "components/popUpModal";
+@import "components/carousel";
+@import "components/cards";
+/// === === === QUERYS=== === === ===
+
+@import "media-querys/home-query";
+@import "media-querys/mobile-query";
+@import "media-querys/laptop-query";
+@import "media-querys/navigation-query";

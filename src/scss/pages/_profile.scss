@@ -1,0 +1,151 @@
+.profile_row {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    grid-gap: 30px;
+}
+
+.profile-sidebar {
+    border: 1px solid rgba(141, 141, 141, .25);
+}
+
+.profile-nav {
+    display: block;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(141, 141, 141, .25);
+    padding: 1rem;
+    font-weight: bold;
+}
+
+
+.profile_sections {
+    display: flex;
+    flex-direction: column;
+    // padding: 1rem;
+
+
+}
+
+
+
+
+
+.profile-nav li img {
+    margin-right: 15px;
+}
+
+.profile-nav ul li {
+
+    line-height: 50px;
+    color: #2E2E2E;
+    border-bottom: 1px solid rgba(141, 141, 141, .25);
+    padding: 0 20px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        background-color: #EBEBEB;
+    }
+}
+
+.has-sub {
+    position: relative;
+
+    .caret {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-top: 4px dashed;
+        border-top-width: 4px;
+
+        border-right: 4px solid transparent;
+        border-right-width: 4px;
+        border-left: 4px solid transparent;
+        border-left-width: 4px;
+        position: absolute;
+        transform: translate(-50%, 50%);
+        left: 90%;
+        top: 40%;
+        cursor: pointer;
+
+    }
+}
+
+.sub-item-closed {
+    height: 0px;
+    transition: all .3s ease-in;
+}
+
+.sub-item-opened {
+    height: 100px !important;
+
+
+}
+
+.blue-hover {
+    &:hover {
+        background-color: #00A5FA !important;
+        color: white;
+    }
+}
+
+
+
+.myaccount-title {
+    margin-bottom: 1rem;
+}
+
+.account-groups.personal-info .form-group {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+    padding-bottom: 14px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+.account-groups {
+    position: relative;
+
+    .edit-c {
+        position: absolute;
+        transform: translate(-50%, 50%);
+        width: 25px;
+        height: 25px;
+        background: url(../../src/assets/pictures/pencil.png) center center no-repeat;
+        background-size: auto;
+        background-size: 100%;
+        left: 95%;
+        top: 3%;
+        cursor: pointer;
+    }
+
+
+    .close {
+
+        background: url(../../src/assets/pictures/close.png) center center no-repeat;
+
+    }
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block !important;
+    // transition: all .2s ease;
+}

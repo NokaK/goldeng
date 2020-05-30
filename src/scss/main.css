@@ -1,0 +1,325 @@
+/* .active {
+    background-color: #cc1f26 !important;
+    color: #fff !important;
+} */
+
+/* .step-form .step-item {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #d7d8d6;
+    color: #2e2e2e;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin-right: 19%;
+} */
+
+/* .step-form-item:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #d7d8d6;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    margin-top: -1px;
+
+
+} */
+
+/* .setup-service {
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .2), inset 0 5px 0 #00A5FA;
+    padding: 20px;
+    margin-bottom: 40px;
+} */
+
+/* .form-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+} */
+
+/* .collapsible-group {
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    position: relative;
+} */
+
+/* .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+} */
+
+/* .collapsible-group .btn.btn-toggle {
+    width: 100%;
+    text-align: left;
+    color: #2e2e2e;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px;
+    padding-right: 20px;
+    padding-right: 100px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    white-space: initial;
+} */
+
+/* .checkbox:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    
+    background-size: auto;
+    background-size: 100%;
+} */
+/* .border-bottom {
+    border-bottom: 1px solid gray !important;
+} */
+
+/* .checkbox:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 25px;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background: url(./../assets/pictures/gray\ line.svg) no-repeat center center;
+    background-size: auto;
+    background-size: 100%;
+} */
+
+
+
+/* .selected {
+
+    width: 40px;
+    height: 100%;
+    background: url(./../assets/pictures/white\ line.svg) no-repeat center center;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+} */
+
+/* .new-check-box {
+    background: url(./../assets/pictures/blue\ line.svg) no-repeat center center;
+    &:after {
+        transform: rotateX(180deg) translate(-50%, 50%);
+    }
+} */
+
+/* .new-checkbox-up:after {
+    transform: rotateX(180deg) translate(-50%, 50%);
+} */
+
+/* .collapse {
+    padding: 0 20px 20px;
+    height: auto !important;
+    display: block !important;
+} */
+
+/* .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+} */
+
+/* .collapse-none {
+    display: none;
+} */
+
+
+/* .addition-services {
+    position: relative;
+} */
+
+/* .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    margin-top: -12px;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+}
+
+.new-checkmark {
+   
+    position: absolute;
+    
+    left: 0;
+    background: #cc1f26 url(./../assets/pictures/red-checkbox.svg) no-repeat center center;
+    background-size: auto;
+    background-size: cover;
+    border-radius: 4px;
+    
+} */
+
+
+
+/* .clearfix {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    padding: 15px 0 15px 40px;
+    display: block;
+    position: relative;
+} */
+
+/* .cost {
+    float: right;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.question_mark {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.zero {
+    margin: 0px 5px 0px 5px;
+}
+
+.class-office-checkbox {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.div-addition-services {
+    display: none;
+    height: auto;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    margin-left: -18px;
+}
+
+.radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-addition-services .choose-fees.active label {
+    color: #fff !important;
+    background: #cc1f26 !important;
+    border: 1px solid #cc1f26 !important;
+
+}
+
+.text {
+    float: left;
+}
+
+.choose-fees {
+    border-radius: 15px !important;
+}
+
+.comp {
+    margin-bottom: 35px;
+    text-align: center;
+} */
+
+/* .btn-submit {
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #f12e36;
+
+    padding: 12px 155px;
+    transition: all .2 ease;
+
+    &:hover {
+        background-color: $blue;
+    }
+} */
+
+/* .btn-submit:hover {
+    background-color: #00A5FA;
+} */
+
+/* .side-bar {
+    margin-top: 4.4rem;
+}
+
+.your-order {
+    margin-bottom: 35px;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+    padding: 20px 20px 29px 20px;
+}
+
+.your-order h3 {
+    margin-bottom: 30px;
+
+}
+
+.your-order .form-group .text {
+    float: left;
+    font-weight: 400;
+}
+
+.your-order .form-group .value {
+    color: #2e2e2e;
+    font-weight: 700;
+    text-align: right;
+    float: right;
+} */

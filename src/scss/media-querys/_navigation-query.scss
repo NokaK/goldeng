@@ -1,0 +1,260 @@
+@media only screen and (max-width: 1380px) {
+    .navigation__menu {
+        width: 90% !important;
+    }
+
+    .navigation__logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .crypto_section__container {
+        display: none !important;
+    }
+
+    .laptop_crypto {
+        display: block !important;
+        width: 100%;
+
+        .img {
+            width: 2rem;
+            height: 100%;
+        }
+
+        .laptop_bitcoin {
+            display: flex;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .crypto_collapsed {
+            padding: 1rem 0rem 0rem 0rem;
+            display: none;
+            position: absolute;
+            left: -2.6rem;
+            top: 2.3rem;
+
+            &__container {
+                background-color: #e6e6e6;
+                width: 8rem;
+                padding: -1rem;
+                padding: 0.8rem;
+                border-radius: 5px;
+                box-shadow: $box-shadow-forcrypto-drowpdown;
+            }
+
+            .eterium {
+                padding: 1rem 0rem 0rem 0rem;
+            }
+
+            .xrp {
+                padding: 1rem 0rem 0rem 0rem;
+            }
+        }
+
+        .crypto_caret {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 120%;
+            top: 47%;
+            cursor: pointer;
+        }
+    }
+
+    .crypto_flex {
+        margin-left: initial !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+
+
+    ///HOME PAGE
+
+    .logo_navigation__container {
+        width: 50% !important;
+    }
+
+    .mobile_setup {
+        display: block !important;
+    }
+
+    .sectionOne {
+        margin-top: 3rem !important;
+    }
+
+    // .body--modal-open {
+    //     overflow: hidden;
+    // }
+
+    .hamburger {
+        display: block !important;
+        width: 4rem;
+        height: 100%;
+
+        svg {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+    }
+
+    .active-burger {
+        svg {
+            path {
+                stroke: $red;
+                filter: drop-shadow(0px 0px 7px rgba(255, 0, 0, 0.8));
+            }
+        }
+    }
+
+    .navigation {
+        padding: 0 2.4vw;
+    }
+
+    .navigation__shop {
+        display: none;
+    }
+
+    .navigation__menu {
+        display: none;
+    }
+
+    .svg_burger {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .svg_burger_stroke {
+        path {
+            stroke: red;
+        }
+    }
+
+    .navigation {
+        .btn-small-fill {
+            width: 15rem;
+        }
+
+        // padding: 0 6vw;
+        .navigation__logo__property {
+            display: none;
+        }
+
+        .logo_small {
+            display: block;
+            width: 4rem;
+            height: 100%;
+        }
+
+
+
+
+    }
+
+
+    // === === === === ===
+    // NEW STYLES FOR MOBILE NAV
+    // === === === === ===
+
+    .dropdown-menu.dropdown-style4 li {
+
+        width: 100% !important;
+    }
+
+    .new-opacity {
+        display: block !important;
+    }
+
+    .dropdown_navigation_transform {
+        transform: translateY(66px) !important;
+    }
+
+    .navigation__menu {
+        /* display: none; */
+        display: none;
+        position: absolute;
+        background: white;
+        width: 100vw !important;
+        left: 0;
+        transform: translateY(66px);
+    }
+
+    .navigation {
+
+        padding: 0 0;
+    }
+
+
+    .navigation__shop {
+
+        display: none;
+    }
+
+
+    .navigation .logo_navigation__container {
+        flex-direction: column;
+        position: relative;
+        padding-left: 4.2vw;
+    }
+
+    .navigation__logo {
+        justify-self: start;
+        align-self: start;
+    }
+
+
+
+    .navigation__menu__list {
+
+        width: 100vw !important;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation .dropdown .dropdown-menu {
+        position: initial;
+        margin: 0 auto;
+
+    }
+
+    .navigation__menu__list__items {
+
+        margin: 2vw 0;
+    }
+
+
+    .navigation .dropdown-style4 {
+
+        width: 100vw;
+    }
+
+    .navigation .dropdown .dropdown-menu {
+
+        left: 0;
+    }
+
+
+
+    .navigation .dropdown-style4 {
+
+        width: 100vw;
+    }
+
+    .navigation .dropdown .dropdown-menu li {
+
+        margin-top: 0.5rem;
+    }
+
+
+
+    .paragraph-small {
+
+        font-size: calc(18px + (14 - 18) * ((100vw - 300px) / (1900 - 700))) !important;
+    }
+
+
+}
